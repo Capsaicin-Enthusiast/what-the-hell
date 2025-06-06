@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn { @apply p-4; }
+  .row-center { @apply flex-row items-center; }
+  .card-light { @apply p-4 bg-gray-200 rounded-lg; }
+  .rounded-lg-border { @apply rounded-lg border border-black; }
+  .input-wrapper { @apply h-9 flex-1 justify-center rounded-full bg-gray-200 px-2.5; }
+  .chat-item { @apply flex-row items-center border-b border-gray-200 py-2; }
+  .avatar { @apply h-16 w-16 rounded-full border-2 border-black bg-white; }
+  .footer-bar { @apply h-18 absolute bottom-0 w-full flex-row items-center justify-around border-gray-200 bg-white; }
+}
