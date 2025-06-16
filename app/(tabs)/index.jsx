@@ -1,7 +1,6 @@
 import { Image, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
-import Swiper from 'react-native-deck-swiper';
 import ProfileCard from '../../components/ProfileCard';
 import Avatar1 from '../../assets/Avatars/Avatar1.png';
 import Avatar2 from '../../assets/Avatars/Avatar2.png';
@@ -58,9 +57,9 @@ const Home = () => {
 
   return (
     <SafeAreaView className="flex-1" edges={['left', 'right', 'bottom']}>
-      <View className="px-5 bg-white">
+      <View className="bg-white px-5">
         {/* Header */}
-        <View className="flex-row items-center justify-between my-5">
+        <View className="my-5 flex-row items-center justify-between">
           <Image source={HomepageLogo} />
           <Ionicons
             name="options-outline"
