@@ -13,7 +13,6 @@ import Avatar6 from '../../assets/Avatars/Avatar6.png';
 import { useRouter } from 'expo-router';
 import HomepageLogo from '../../assets/Logo3.png';
 
-// Move mock data outside component
 const mockProfiles = [
   {
     name: 'Charles, 24',
